@@ -128,6 +128,26 @@ brew tap mike182uk/tap
 brew install mike182uk/tap/open-zwave
 ```
 
+### How do I install OpenZWave on Raspbian
+
+You can easily compile OpenZWave from source by downloading the most recent v1.6 source from [OpenZWave.com](http://old.openzwave.com/downloads/).
+
+```sh
+cd ~
+mkdir openzwave
+cd openzwave
+wget http://old.openzwave.com/downloads/openzwave-1.6.1392.tar.gz
+```
+
+Extract, compile, install and update libary caches
+
+```sh
+tar -xvf openzwave-1.6.1392.tar.gz
+
+cd openzwave-1.6.1392
+make && sudo make install && sudo ldconfig
+```
+
 ⚠️ **WARNING**
 
 If you run:
