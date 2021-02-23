@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "@hapi/joi": "^17.0.2",
-    "openzwave-shared": "^1.7.1"
+    "openzwave-shared": "^1.7.2"
   }
 }
